@@ -89,7 +89,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: #bbc7fd;
+    background-color: #FBFAF0;
     box-shadow: 0px 5px 15px rgba(0, 0,0, 0.06);
     z-index: 999;
     position: sticky;
@@ -137,7 +137,7 @@ body {
     display: none;
 }
 #hero{
-    background-image: url("image/hero4.png");
+    background-image: url("front.jpg");
     width: 100%;
     height: 90vh;
     background-size: cover;
@@ -248,7 +248,7 @@ body {
 }
 #product1 .pro .des i{
     font-size: 12px;
-    color: rgb(243,181,25);
+    color: rgb(25, 243, 61);
 }
 #product1 .pro .des h4{
     padding-top: 7px;
@@ -483,7 +483,7 @@ footer a:hover{
 
 /* Shop page Start */
 #page-header{
-    background-image: url('image/b1.jpg');
+    background-image: url('b1.jpg');
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -567,7 +567,7 @@ footer a:hover{
 
 /* Blog page */
 #page-header1{
-    background-image: url('image/b19.jpg');
+    background-image: url('b3.jpg');
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -634,7 +634,7 @@ footer a:hover{
 }
 /* About page */
 #page-header2{
-    background-image: url('image/banner.png');
+    background-image: url('b44.jpg');
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -676,10 +676,29 @@ footer a:hover{
 }
 
 /* Contact Page */
+#page-header3{
+    background-image: url('b5.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#page-header3 h2{
+    color: white;
+}
+#page-header3 p{
+    color: white;
+}
+
 #contact-details{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 #contact-details .details{
     width: 40%;
@@ -755,6 +774,7 @@ footer a:hover{
     height: 65px;
     object-fit: cover;
     margin-right: 15px;
+    border-radius: 50%;
 }
 #form-details .people div p{
     margin: 0;
@@ -768,6 +788,18 @@ footer a:hover{
     color: black;
 }
 /* Card Page */
+#page-header4{
+    background-image: url('b9.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
 #cart{
     overflow-x: auto;
 }
